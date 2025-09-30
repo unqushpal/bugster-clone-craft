@@ -5,9 +5,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">B</span>
+              <span className="text-primary-foreground font-bold text-lg">M</span>
             </div>
-            <span className="text-xl font-bold">Bugster</span>
+            <span className="text-xl font-bold">Membrain AI</span>
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            © 2025 Bugster. All rights reserved.
+            © 2025 Membrain AI. All rights reserved.
           </p>
         </div>
       </div>

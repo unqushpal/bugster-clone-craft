@@ -1,0 +1,27 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- StudyBug Body -->
+  <ellipse cx="200" cy="200" rx="80" ry="100" fill="#4F46E5" />
+  <!-- Head -->
+  <circle cx="200" cy="100" r="60" fill="#4F46E5" />
+  <!-- Eyes -->
+  <circle cx="180" cy="90" r="10" fill="white" />
+  <circle cx="220" cy="90" r="10" fill="white" />
+  <circle cx="180" cy="90" r="5" fill="black" />
+  <circle cx="220" cy="90" r="5" fill="black" />
+  <!-- Antennae -->
+  <line x1="160" y1="70" x2="140" y2="50" stroke="black" stroke-width="3" />
+  <line x1="240" y1="70" x2="260" y2="50" stroke="black" stroke-width="3" />
+  <circle cx="140" cy="50" r="5" fill="black" />
+  <circle cx="260" cy="50" r="5" fill="black" />
+  <!-- Legs -->
+  <line x1="140" y1="220" x2="120" y2="250" stroke="black" stroke-width="3" />
+  <line x1="160" y1="240" x2="140" y2="270" stroke="black" stroke-width="3" />
+  <line x1="240" y1="220" x2="260" y2="250" stroke="black" stroke-width="3" />
+  <line x1="260" y1="240" x2="280" y2="270" stroke="black" stroke-width="3" />
+  <!-- Book -->
+  <rect x="250" y="150" width="80" height="60" rx="5" fill="#F3F4F6" stroke="black" stroke-width="2" />
+  <text x="260" y="180" font-family="Arial" font-size="12" fill="black">Study</text>
+  <text x="260" y="195" font-family="Arial" font-size="12" fill="black">Notes</text>
+  <!-- Reading pose arm -->
+  <path d="M220 150 Q240 140 260 150" stroke="black" stroke-width="5" fill="none" />
+</svg>

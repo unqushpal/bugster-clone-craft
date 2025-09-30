@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,16 +19,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
 
-    --primary: 216 100% 50%;
+    --primary: 217 98% 52%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 96%;
+    --secondary: 35 15% 94%;
     --secondary-foreground: 0 0% 10%;
 
     --muted: 35 20% 94%;
     --muted-foreground: 0 0% 40%;
 
-    --accent: 68 100% 50%;
+    --accent: 45 100% 55%;
     --accent-foreground: 0 0% 10%;
 
     --destructive: 0 84.2% 60.2%;
@@ -36,7 +38,7 @@ All colors MUST be HSL.
     --input: 35 15% 88%;
     --ring: 216 100% 50%;
 
-    --radius: 1rem;
+    --radius: 1.5rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -65,16 +67,16 @@ All colors MUST be HSL.
     --popover: 0 0% 14%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 216 100% 50%;
+    --primary: 217 98% 52%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 20%;
+    --secondary: 35 10% 18%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 0 0% 20%;
+    --muted: 35 10% 18%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 68 100% 50%;
+    --accent: 45 100% 55%;
     --accent-foreground: 0 0% 10%;
 
     --destructive: 0 62.8% 50%;
@@ -100,6 +102,7 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
 }

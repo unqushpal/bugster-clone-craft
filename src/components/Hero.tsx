@@ -11,35 +11,35 @@ const Hero = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center relative z-10">
             <div className="space-y-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                Bugster: The{" "}
-                <span className="block">AI QA Engineer</span>
+                Membrain AI:{" "}
+                <span className="block">Your AI Study Buddy</span>
               </h1>
               
               <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                Bugster uses your app like a real user so you can find bugs without writing tests.
+                Transform your PDFs into interactive learning experiences. Prepare for exams and master concepts deeply with AI-powered modes.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button variant="accent" size="lg" className="text-base">
-                  START TESTING
+                  GET STARTED
                 </Button>
                 <Button variant="outline" size="lg" className="text-base">
-                  BOOK DEMO
+                  UPLOAD PDF
                 </Button>
               </div>
 
               <p className="text-sm text-muted-foreground pt-2">
-                Excited to see more?{" "}
+                Ready to dive in?{" "}
                 <a href="#" className="text-foreground font-semibold underline underline-offset-4 hover:text-primary transition-colors">
-                  WATCH WALKTHROUGH
+                  EXPLORE MODES
                 </a>
               </p>
             </div>
 
             <div className="relative">
-              <img 
-                src={heroChameleon} 
-                alt="Bugster chameleon inspecting code" 
+              <img
+                src="/placeholder-studybug.svg"
+                alt="StudyBug reading a PDF"
                 className="w-full h-auto rounded-2xl"
               />
             </div>
