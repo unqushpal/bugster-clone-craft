@@ -19,7 +19,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
 
-    --primary: 217 98% 52%;
+    --primary: 217 100% 50%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 35 15% 94%;
@@ -28,7 +28,7 @@ All colors MUST be HSL.
     --muted: 35 20% 94%;
     --muted-foreground: 0 0% 40%;
 
-    --accent: 45 100% 55%;
+    --accent: 48 100% 60%;
     --accent-foreground: 0 0% 10%;
 
     --destructive: 0 84.2% 60.2%;
@@ -38,7 +38,7 @@ All colors MUST be HSL.
     --input: 35 15% 88%;
     --ring: 216 100% 50%;
 
-    --radius: 1.5rem;
+    --radius: 2rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -67,7 +67,7 @@ All colors MUST be HSL.
     --popover: 0 0% 14%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 217 98% 52%;
+    --primary: 217 100% 50%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 35 10% 18%;
@@ -76,7 +76,7 @@ All colors MUST be HSL.
     --muted: 35 10% 18%;
     --muted-foreground: 0 0% 60%;
 
-    --accent: 45 100% 55%;
+    --accent: 48 100% 60%;
     --accent-foreground: 0 0% 10%;
 
     --destructive: 0 62.8% 50%;
@@ -102,7 +102,25 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply text-slate-900 font-sans;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #fef7ed 0%, #fef3c7 50%, #fde68a 100%);
+    min-height: 100vh;
   }
+}
+
+/* Custom animations for Reviser mode */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
 }

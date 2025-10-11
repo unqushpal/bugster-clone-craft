@@ -13,17 +13,17 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <button
             onClick={() => navigate("/")}
-            className="flex items-center gap-2 bg-transparent border-none cursor-pointer"
+            className="flex items-center gap-3 bg-transparent border-none cursor-pointer"
           >
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">M</span>
+            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-lg">
+              <span className="text-primary-foreground font-bold text-xl">M</span>
             </div>
-            <span className="text-xl font-bold hover:text-primary transition-colors">Membrain AI</span>
+            <span className="text-2xl font-bold text-slate-800 hover:text-primary transition-colors">Membrain AI</span>
           </button>
 
           <div className="hidden md:flex items-center gap-6">
